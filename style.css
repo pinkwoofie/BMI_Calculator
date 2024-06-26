@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ddb3b3;
+}
+
+.canvas {
+    background: #ecdada;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+h2, h4, h3 {
+    margin-top: 20px;
+}
+
+#result{
+    margin-top: 10px;
+    font-size: large;
+    font-display: 30px;
+}
